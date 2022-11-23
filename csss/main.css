@@ -1,0 +1,97 @@
+
+.modal{
+   width: 700px;
+   background-color: aquamarine;
+   padding-top: 0px;
+   padding-bottom: 15px;
+   border-radius: 10px;
+   padding-right: 5px;
+}
+
+input{
+   padding-left: 5px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border-radius: 5px;
+   background-color: antiquewhite
+}
+#push{
+   padding-left: 5px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border-radius: 5px;
+   background-color: rgb(36, 57, 241);
+   color: #fff;
+   border: none;
+   box-shadow: 3px 3px 5px rgb(94, 143, 248);
+}
+
+#newtask{
+   text-align: center;
+   margin-top: 10px;
+}
+
+#taskname{
+   max-width: 500px;
+   background-color: #fff;
+   border-radius: 5px;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+.delete{
+   border: none;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   background-color: red;
+   color: #fff;
+   border-radius: 5px;
+}
+
+#tasks{
+   text-align: center;
+   margin-top: 10px;
+}
+
+#tasks .task{
+   margin-top: 20px;
+}
+
+#tasks .task .taskname{
+   width: 400px;
+}
+
+.title1{
+   text-align: center
+}
+
+.close-modal{
+   font-size: 40px;
+   color: red;
+   border: none;
+   border-radius: 5px;
+   background-color:rgb(129, 125, 125)
+}
+
+.main-section{
+   position: relative;
+}
+
+.hidden{
+   display: none;
+}
+
+.overlay{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(111, 126, 213, 0.404);
+   backdrop-filter: blur(8px);
+   z-index: 5;
+}

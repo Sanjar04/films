@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main/main.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./csss/main.css">
+    <title>Uzmovi</title>
+  </head>
+  <body>
+    <header></header>
+    <main class="main">
+      <h1 class="text-center mt-3 mb-4">Movies catalog</h1>
+      <section class="main-section container">
+        <div class="row">
+          <div class="film-left-top col-lg-3">
+              <div class="input-group flex-nowrap">
+                <input
+                  type="text"
+                  class="form-control search mb-4"
+                  placeholder="Kino nomini kiriting!"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+             
+              <button  class="btn search-btn btn-primary mb-4">
+                Qidirish
+              </button>
+
+              <select
+                class="form-select select mb-4"
+                aria-label="Default select example"
+              >
+                <option  value="All">All</option>
+              </select>
+           
+          </div>
+
+          <div class="col-lg-9">
+            <p class="d-inline-block alert alert-warning w-100">
+              Search Result: <span class="movies-result">0</span>
+            </p>
+            <p class="alert-info d-block p-2 rounded">
+              Use the form on the left to search movie
+            </p>
+
+            <ul class="movies__list  row gap-0 mt-5">
+                
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/films.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
